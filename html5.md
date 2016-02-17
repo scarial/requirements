@@ -1,5 +1,5 @@
 
-Balise Personnalisée
+Balises Personnalisées
 --------------------
 ```
 <maBalise></maBalise>
@@ -13,3 +13,8 @@ Balise Personnalisée
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+Balise `<button>`
+---------------
+**Attention :** Toujours ajouter le type à la balise bug constaté sur du js concernant les balises button sans type.
+    
+    `<button type="button">`My Button`</button>`
