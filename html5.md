@@ -6,6 +6,7 @@ Balise Personnalisée
 ```
 
 **Problème :** IE < 9 ne permet pas d'utiliser de styles sur des balises inconnues.
+
 **Solution :**
 
     <!--[if lt IE 9]>
