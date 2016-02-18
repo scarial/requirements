@@ -48,7 +48,8 @@ First name:<input type="text" name="fname" autofocus>
 localStorage
 ------------
 Rôle de stockage de données sur le navigateur.
-**attention:** Name/value pairs are always stored as strings. Remember to convert them to another format when needed!
+
+**Attention:** Name/value pairs are always stored as strings. Remember to convert them to another format when needed!
 
 * contrairement aux cookies, pas d'envoi des localStorage au serveur.
 * enregistrement de données sur le client **par domaine**
