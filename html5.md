@@ -18,7 +18,11 @@ Balise `<button>`
 **Attention :** Toujours ajouter le type à la balise bug constaté sur du js concernant les balises button sans type.
     
     `<button type="button">`My Button`</button>`
-    
+
+Balise `<video>`
+----------------
+** voir la doc en ligne **
+
 Attributs
 ---------
 * **autocomplete** : permet au navigateur de conserver en memoire les infos d'un formulaire ou d'un champ
@@ -40,4 +44,26 @@ First name:<input type="text" name="fname" autofocus>
   <option value="Firefox">
   <option value="Chrome">
 </datalist>
+```
+localStorage
+------------
+Rôle de stockage de données sur le navigateur.
+**attention:** Name/value pairs are always stored as strings. Remember to convert them to another format when needed!
+
+* contrairement aux cookies, pas d'envoi des localStorage au serveur.
+* enregistrement de données sur le client **par domaine**
+* https et http on un différent localStorage
+* pas de date d'expiration
+```
+localStorage.setItem("lastname", "Smith");
+localStorage.getItem("lastname");
+```
+ou
+```
+localStorage.lastname = "Smith";
+localStorage.lastname;
+```
+suppression
+```
+localStorage.removeItem("lastname");
 ```
