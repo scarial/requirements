@@ -21,7 +21,7 @@ Balise `<button>`
 
 Balise `<video>`
 ----------------
-** voir la doc en ligne **
+**voir la doc en ligne**
 
 Attributs
 ---------
