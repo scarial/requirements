@@ -5,9 +5,9 @@ Balises Personnalisées
 <maBalise></maBalise>
 ```
 
-**Problème :** IE < 9 ne permet pas d'utiliser de styles sur des balises inconnues.
+**Problème :** IE < 9 ne permet pas d'utiliser de styles sur des balises inconnues; De manière générale, les anciens navigateurs ne connaissent pas les nouvelles balises sémantiques du HTML5.
 
-**Solution :** (forcément dane une balise <head>)
+**Solution :** (forcément dane une balise `<head>`)
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
