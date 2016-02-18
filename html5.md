@@ -45,8 +45,8 @@ First name:<input type="text" name="fname" autofocus>
   <option value="Chrome">
 </datalist>
 ```
-localStorage
-------------
+localStorage Object
+-------------------
 Rôle de stockage de données sur le navigateur.
 
 **Attention:** Name/value pairs are always stored as strings. Remember to convert them to another format when needed!
@@ -68,3 +68,6 @@ suppression
 ```
 localStorage.removeItem("lastname");
 ```
+sessionStorage Object
+---------------------
+Même chose que localStorage sauf que l'objet expire à la fermeture de l'onglet/navigateur
