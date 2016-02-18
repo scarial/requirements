@@ -21,20 +21,20 @@ Balise `<button>`
     
 Attributs
 ---------
-* autocomplete : permet au navigateur de conserver en memoire les infos d'un formulaire ou d'un champ
+* **autocomplete** : permet au navigateur de conserver en memoire les infos d'un formulaire ou d'un champ
 ```
-<form action="action_page.php" autocomplete="on">...</form>
+<form action="action_page.php" **autocomplete="on"**>...</form>
 ```
 ```
-First name:<input type="text" name="fname" autocomplete="off">
+First name:<input type="text" name="fname" **autocomplete="off"**>
 ```
-* autofocus : le champ de formulaire prend le focus au chargement de la page
+* **autofocus** : le champ de formulaire prend le focus au chargement de la page
 ```
-First name:<input type="text" name="fname" autofocus>
+First name:<input type="text" name="fname" **autofocus**>
 ```
-* list : permet de determiner une liste de valeurs possibles (entrées en autocompletion), pour un input.
+* **list** : permet de determiner une liste de valeurs possibles (entrées en autocompletion), pour un input.
 ```
-<input list="browsers">
+<input **list**="browsers">
 <datalist id="browsers">
   <option value="Internet Explorer">
   <option value="Firefox">
