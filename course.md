@@ -1,8 +1,8 @@
 Day1
 ----
-- [] html5
-- [] markdown
-- [] news
+- []html5
+- []markdown
+-[]news
 
 Day2
 ----
