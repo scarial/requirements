@@ -1,7 +1,7 @@
 Day1
 ----
-- [ ] html5
-- [ ] markdown
+- [x] html5
+- [x] markdown
 - [ ] news
 
 Day2
