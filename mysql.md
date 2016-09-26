@@ -3,7 +3,7 @@
 
 ## InnoDB
 
-1. Connect to right database in mysql
+1. Connect to the right database in mysql
 
 2. Execute commands 
 ```
