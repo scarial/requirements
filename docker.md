@@ -45,5 +45,6 @@ Arrêter proprement l'utilisation d'un container.
 
 TIPS:
 -----
- - Une BDD peut vivre dans un container, et si on start le container, on retrouve sa BDD dans l'état précédent.
+ - Une BDD sera utilisée dans un Volume
+
 
