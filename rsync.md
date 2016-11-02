@@ -1,5 +1,5 @@
-Rsync pour copier les données depuis un serveur distant en SSH
---------------------------------------------------------------
+Rsync pour copier les données en local depuis un serveur distant en SSH
+-----------------------------------------------------------------------
 ```
 rsync -ave ssh serveur_ip_ou_nom:/chemin/vers/source /chemin/vers/cible
 ```
