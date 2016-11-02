@@ -1,3 +1,22 @@
+Installer Rsync
+---------------
+```
+sudo apt-get install rsync
+```
+
+Utilisation basique
+-------------------
+
+```
+rsync chemin/vers/source chemin/vers/cible
+```
+
+Utiliser rsync pour transférer des données d’un serveur à un autre
+------------------------------------------------------------------
+```
+rsync -e ssh -avz /chemin/vers/source serveur_ip_ou_nom:/chemin/vers/cible
+```
+
 Rsync pour copier les données en local depuis un serveur distant en SSH
 -----------------------------------------------------------------------
 ```
