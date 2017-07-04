@@ -8,3 +8,4 @@
 * review design patterns
 * review architecture advices
 * update tech sites sources
+* sublime text tips
