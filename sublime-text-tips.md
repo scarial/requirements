@@ -21,4 +21,4 @@ The idea is to use a regexp to extend the context displayed, adapting the follow
 ```
 (.*\n){0,2}.*search_string.*(\n.*){0,2}
 ```
-with search_string to replace with your actual searched string
+where `search_string` is to replace with your actual searched string
