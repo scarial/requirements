@@ -1,3 +1,8 @@
+See Sublime installed packages in an exportable way :
+```
+Preferences -> Package Settings -> Package Control -> Settings-User
+```
+
 Current configuration :
 ```
 {
