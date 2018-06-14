@@ -10,5 +10,6 @@ Updating phpstorm painlessly with script :
 
 
 Useful shortcuts:
-  Navigate among class methods : Ctrl+F12
-  Go to file line : Ctrl+G
+
+  - Navigate among class methods : `Ctrl+F12`
+  - Go to file line : `Ctrl+G`
