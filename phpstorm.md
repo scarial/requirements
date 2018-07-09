@@ -13,3 +13,5 @@ Useful shortcuts:
 
   - Navigate among class methods : `Ctrl+F12`
   - Go to file line : `Ctrl+G`
+  - Extract into method https://i.imgur.com/DXz9Lgo.gifv
+  - Extract into Interface https://i.imgur.com/bhuEHTL.gifv
