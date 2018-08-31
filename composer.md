@@ -10,3 +10,5 @@ composer show --tree --ansi --no-interaction
 ```
 composer show twig/twig --tree --ansi --no-interaction
 ```
+- Composer use a local repository
+https://stackoverflow.com/questions/17426192/composer-using-a-local-repository
