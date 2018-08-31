@@ -1,11 +1,9 @@
 # requirements
 
-* learning meltdown basics to complete current repo with doc
-* review linux commands
-* review js advanced
-* review POO advanced
-* review Merise/Uml
-* review design patterns
-* review architecture advices
-* update tech sites sources
-* sublime text tips
+* new pass on linux commands
+* new pass on js advanced
+* new pass on Merise/Uml
+* new pass on design patterns
+* new pass on architecture advices
+* new pass on Optimization
+* new pass on security
