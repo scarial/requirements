@@ -10,11 +10,14 @@ composer show --tree --ansi --no-interaction
 ```
 composer show twig/twig --tree --ansi --no-interaction
 ```
-- Composer use a local repository :
+Composer use a local repository :
+---------------------------------
 
 https://stackoverflow.com/questions/17426192/composer-using-a-local-repository
 
-- Bypassing composer memory limit error:
+Bypassing composer memory limit error :
+---------------------------------------
+
 ```
 php -d memory_limit=-1 /usr/local/bin/composer <..>
 ```
