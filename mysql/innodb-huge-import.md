@@ -1,5 +1,9 @@
 # Import huge files
 
+Use tools that can parallelize executions : 
+- mydumper => https://github.com/maxbube/mydumper
+- myloader => https://github.com/zhangjinpeng1987/myloader
+
 
 ## InnoDB
 
