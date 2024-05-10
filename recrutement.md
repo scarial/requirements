@@ -10,6 +10,8 @@ https://www.roberthalf.fr/blog/questions-a-poser-deuxieme-entretien
 
 # Tests techniques 
 
+https://github.com/scarial/requirements/tree/master/technical-tests
+
 https://github.com/epicery/test-technique (ruby)
 
 https://github.com/stadline/php-technical-test
