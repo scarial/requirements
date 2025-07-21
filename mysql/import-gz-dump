@@ -1,0 +1,7 @@
+Importing big sql file :
+
+1/ compress it with gz
+In order to import big file without losing connexion to db :
+
+2/ import it
+zcat /path/to/file.sql.gz | mysql -u 'root' -p your_database
