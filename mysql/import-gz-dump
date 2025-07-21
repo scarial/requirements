@@ -1,7 +1,80 @@
-Importing big sql file :
+To import a `.sql.gz` dump file **into a local database** using a **different database name**, follow these steps:
 
-1/ compress it with gz
-In order to import big file without losing connexion to db :
+---
 
-2/ import it
-zcat /path/to/file.sql.gz | mysql -u 'root' -p your_database
+### 🧩 1. **Decompress the `.sql.gz` file**
+
+First, decompress the file:
+
+```bash
+gunzip dumpfile.sql.gz
+```
+
+This will create a `dumpfile.sql`.
+
+---
+
+### 🛠 2. **Check the dump content**
+
+Before importing, check if the SQL dump contains `CREATE DATABASE` or `USE` statements:
+
+```bash
+head -n 50 dumpfile.sql | grep -Ei 'create database|use'
+```
+
+If so, you’ll want to remove or modify those to match your target database name. Otherwise, MySQL will try to use the original database name from the dump.
+
+---
+
+### ✏️ 3. **Optional: Edit the dump to change database name**
+
+If you want to **replace all references** to the original database (`old_db`) with the new one (`new_db`), use:
+
+```bash
+sed -i 's/`old_db`/`new_db`/g' dumpfile.sql
+```
+
+> **Note:** Back up your `.sql` file before running `sed -i`.
+
+---
+
+### 💾 4. **Create the new database locally**
+
+Make sure the new target database exists:
+
+```bash
+mysql -u root -p -e "CREATE DATABASE new_db;"
+```
+
+Replace `new_db` with your desired name.
+
+---
+
+### ⏬ 5. **Compress back to save disk space & speed up process **
+
+```bash
+gzip dumpfile.sql
+```
+
+We now have a dumpfile.sql.gz
+
+---
+
+### ⏬ 6. **Import into the new database**
+
+Finally, import the modified dump into the new database:
+
+```bash
+zcat dumpfile.sql.gz | mysql -u root -p new_db
+```
+
+---
+
+### ✅ Summary
+
+* Decompress the dump.
+* (Optional) Edit the SQL to change database references.
+* Create the target database.
+* Import the dump using `mysql new_db < dumpfile.sql`.
+
+Let me know if you need a script version for automation or are working with Docker or GCP's Cloud SQL locally.
